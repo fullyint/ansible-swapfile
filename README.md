@@ -21,7 +21,7 @@ None.
 
 ### Optional
 
-The following variables are set to `False` by default and will not have any effect on your hosts. Setting them to any value other than `False` will update your hosts' sysctl.conf file.
+The following variables are set to `False` by default and will not have any effect on your hosts. Setting them to any value other than `False` will update the corresponding configuration files in your hosts' `/etc/sysctl.d` directory.
 
 * `swapfile_swappiness` [default: `False`]: the swappiness percentage (vm.swappiness) -- the lower it is, the less your system swaps memory pages
 
